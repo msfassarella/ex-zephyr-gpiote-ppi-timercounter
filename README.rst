@@ -32,7 +32,7 @@ In this sample we want to demonstrates how to use the timer like a timer counter
 while a led is toggled. 
 To increment the counter we use the sw1 button event. 
 To clear the counter we use the sw0 button event. 
-
+Please take attention on file Kconfig and prj.conf
 
 Requirements
 ************
@@ -49,7 +49,7 @@ To build and flash the application:
 
 .. zephyr-app-commands::
    :zephyr-app: samples/boards/nrf/nrfx
-   :board: nrf9160dk_nrf9160
+   :board: nrf52840dk_nr52840
    :goals: build flash
    :compact:
 
